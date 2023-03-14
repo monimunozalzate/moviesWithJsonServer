@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "name": "Titanic",
+      "description": "es una película estadounidense de 1997,dramática y de catástrofe, dirigida y escrita por James Cameron y protagonizada por Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates, Gloria Stuart y Bill Paxton. La trama, una epopeya romántica.",
+      "createdAt": "1997",
+      "img": "https://tse2.mm.bing.net/th?id=OIP.agJ8KQPxtGAISH6glBV4gAHaKj&pid=Api&P=0",
+      "isLiked": true,
+      "id": 4
+    },
+    {
+      "name": "El senor de los anillos",
+      "description": "basada en la novela homónima del escritor británico J. R. R. Tolkien, comprende tres películas épicas de fantasía, acción y aventuras: El Señor de los Anillos: la Comunidad del Anillo (2001), El Señor de los Anillos: las dos torres (2002) y El Señor de los Anillos: el retorno del Rey (2003).",
+      "createdAt": "2001, 2002, 2003",
+      "img": "https://tse4.mm.bing.net/th?id=OIP.Xy13vmOThHmeKrWdifKMwwHaEW&pid=Api&P=0",
+      "isLiked": false,
+      "id": 5
+    },
+    {
+      "name": "Pocahontas",
+      "description": "Pocahontas es una joven india muy aventurera y decidida, a la que le encanta la naturaleza y ser un espíritu libre para poder conocer todo lo que la rodea, pero a pesar de lo que ella querría, tiene que cumplir unas ciertas normas, ya que es la hija del jefe de una tribu, el Jefe Powhatan.",
+      "createdAt": "3 de noviembre de 1995 ",
+      "img": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/FF5F54E87892635470F3409C960163BFD9F478F959EFB9BF98E6A5A54625971D/scale?width=1200&aspectRatio=1.78&format=jpeg",
+      "isLiked": false,
+      "id": 6
+    }
+  ]
+}
