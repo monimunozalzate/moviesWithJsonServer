@@ -22,7 +22,7 @@ const Home = () => {
     const handleClose = () => setOpen(false);
 
     useEffect(() => {
-        axios.get("https://app-movies-two.vercel.app/movies")
+        axios.get("https://app-movies-two.vercel.app//movies")
             .then((res) => setMovies(res.data))
             .catch((err) => console.log(err))
 
@@ -50,7 +50,7 @@ const Home = () => {
 
 // modifica la propiedad isLiked
 // tambien se puede con el verbo put(aca hay que pasar todas las propiedades, con patch solo una propiedad)
-        axios.patch(`https://app-movies-two.vercel.app/${movie.id}`, {
+        axios.patch(`http://localhost:5000/movies/${movie.id}`, {
             isLiked: !movie.isLiked
         } )
         .then (res => setDispatchLike(true))
@@ -62,7 +62,7 @@ const Home = () => {
 // funcion delete
 const deleteMovieById=(id)=>{
     // console.log("este es el id: "+id)
-    axios.delete(`https://app-movies-two.vercel.app/${id}`)
+    axios.delete(`http://localhost:5000/movies/${id}`)
     .then(res => setIsMovieDelete(true))
     .catch(err => console.log(err))
 }
